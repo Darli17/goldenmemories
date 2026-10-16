@@ -2,7 +2,7 @@
 local Functions = loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Utilities/main/Functions.lua"))()
 
 local rooms = workspace.CurrentRooms
-local spawnpart = rooms[game.ReplicatedStorage.GameData.LatestRoom.Value].RoomStar
+local spawnpart = rooms[game.ReplicatedStorage.GameData.LatestRoom.Value].RoomStart
 local MonsterMove2Parts = rooms[game.ReplicatedStorage.GameData.LatestRoom.Value].Nodes
 
 --Services
